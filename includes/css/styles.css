@@ -1,0 +1,252 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Nikunj Ratnaparkhi
+
+*/
+
+
+
+   #myLogo{
+      padding: 0;
+      height: 80px;
+      width: 100%;
+   }
+   
+   .glyphicon{
+      padding: 5px;
+   }
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   .carousel{
+
+      background-color: white;
+   }
+   #myCarousel .item{
+      height: 272px;
+      background-color: white;
+   }
+
+   #slide1{
+      background: url('../../images/auto.png') top center no-repeat;
+   }
+   #slide2{
+      background: url('../../images/business.png') top center no-repeat;
+   }
+   #slide3{
+      background: url('../../images/education.png') top center no-repeat;
+   }
+   #slide4{
+      background: url('../../images/home.png') top center no-repeat;
+   }
+   #slide5{
+      background: url('../../images/lifeinsurance.png') top center no-repeat;
+   }
+   #slide6{
+      background: url('../../images/retirement.png') top center no-repeat;
+   }   
+   #myCarousel{
+      margin-top: 10px;
+      margin-bottom: -35px;
+   }
+
+   .carousel-caption{
+      font-size: 24px;
+      color: green;
+   }
+   
+   .carousel-caption h4{
+      font-size: 32px;
+   }
+
+   
+   #features{
+      text-align: center;
+   }
+
+    #discFeature{
+      text-align: left;
+   }
+
+   footer {
+   background: white;
+   color: black;
+   font-size: 11px;
+   padding: 10px;
+   }
+
+   #link{
+      color: white;
+   }
+   
+.navbar-custom li {
+    /*background-color:  #BCED91;*/
+    background-color:  #3b943c;
+}
+.navbar-custom a{
+    color: white;
+    font-weight: bold;
+}
+   #featureWell{
+      padding-top: 0;
+
+   }
+
+   .social {
+    margin: 0;
+    padding: 0;
+}
+
+.social ul {
+    margin: 0;
+    padding: 5px;
+}
+
+.social ul li {
+    margin: 5px;
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.social i {
+    width: 40px;
+    height: 40px;
+    color: #FFF;
+    background-color: #909AA0;
+    font-size: 22px;
+    text-align:center;
+    padding-top: 12px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social i:hover {
+    color: #FFF;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social .fa-facebook { /* round facebook icon*/
+    background: #4060A5;
+}
+
+.social .fa-twitter { /* round twitter icon*/
+    background: #00ABE3;
+}
+.social .fa-pinterest { /* round pinterest icon*/
+    background: #cb2027;
+}
+
+.social .fa-linkedin { /* round linkedin icon*/
+    background: #0094BC;
+}
+.social .fa-skype { /* round skype icon*/
+    background: #00C6FF;
+}
+.social .fa-video-camera { /* round skype icon*/
+    background: #00FF00;
+}
+
+.social .fa-google-plus { /* round google plus icon*/
+    background: #e64522;
+}
+
+.social .fa-youtube { /* round youtube icon*/
+    background: #FF1F25;
+}
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.tabbable img.thumbnail {
+   margin: 0 20px 10px 0;
+}
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+   
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+    #myCarousel .item{
+      height: 300px;
+   }
+
+    #slide1{
+      background: url('../../images/auto.png') top center no-repeat;
+   }
+   #slide2{
+      background: url('../../images/business.png') top center no-repeat;
+   }
+   #slide3{
+      background: url('../../images/education.png') top center no-repeat;
+   }
+   #slide4{
+      background: url('../../images/home.png') top center no-repeat;
+   }
+   #slide5{
+      background: url('../../images/lifeinsurance.png') top center no-repeat;
+   }
+   #slide6{
+      background: url('../../images/retirement.png') top center no-repeat;
+   }
+
+    .carousel-caption{
+      font-size: 16px;
+      color: green;
+   }
+    .carousel-caption h4{
+      font-size: 24px;
+   }
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+   #myCarousel .item{
+      height: 500px;
+   }
+
+   #slide1{
+      background: url('../../images/auto.png') top center no-repeat;
+   }
+   #slide2{
+      background: url('../../images/business.png') top center no-repeat;
+   }
+   #slide3{
+      background: url('../../images/education.png') top center no-repeat;
+   }
+   #slide4{
+      background: url('../../images/home.png') top center no-repeat;
+   }
+   #slide5{
+      background: url('../../images/lifeinsurance.png') top center no-repeat;
+   }
+   #slide6{
+      background: url('../../images/retirement.png') top center no-repeat;
+   }
+
+}
