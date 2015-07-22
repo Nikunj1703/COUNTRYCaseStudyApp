@@ -250,3 +250,65 @@ Author:  Nikunj Ratnaparkhi
    }
 
 }
+
+
+
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+    #myCarousel .item{
+      height: 300px;
+   }
+
+    #pic1{
+      background: url('../../images/Nikunj.jpg') top center no-repeat;
+   }
+   #pic2{
+      background: url('../../images/Erin.jpg') top center no-repeat;
+   }
+   #pic3{
+      background: url('../../images/Alyssa.jpg') top center no-repeat;
+   }
+   #pic4{
+      background: url('../../images/Tyler.jpg') top center no-repeat;
+   }
+   #pic5{
+      background: url('../../images/Povilas.jpg') top center no-repeat;
+   }
+  
+
+    .carousel-caption{
+      font-size: 16px;
+      color: green;
+   }
+    .carousel-caption h4{
+      font-size: 24px;
+   }
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+   #myCarousel .item{
+      height: 500px;
+   }
+
+    #pic1{
+      background: url('../../images/Nikunj.jpg') top center no-repeat;
+   }
+   #pic2{
+      background: url('../../images/Erin.jpg') top center no-repeat;
+   }
+   #pic3{
+      background: url('../../images/Alyssa.jpg') top center no-repeat;
+   }
+   #pic4{
+      background: url('../../images/Tyler.jpg') top center no-repeat;
+   }
+   #pic5{
+      background: url('../../images/Povilas.jpg') top center no-repeat;
+   }
+
+}
